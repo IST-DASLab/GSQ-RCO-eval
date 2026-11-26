@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png">
+  <img src="assets/banner-light.png" alt="GSQ-RCO model evaluation" width="100%">
+</picture>
+
 # GSQ-RCO model evaluation
 
 We use LightEval for GPQA-Diamond and AIME25, and the LiveCodeBench source runner for code generation on the `v6` subset. All three benchmarks send requests to a local OpenAI-compatible server. The examples use `inkling-2-mini` as the model name.

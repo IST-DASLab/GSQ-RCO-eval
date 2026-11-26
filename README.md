@@ -3,6 +3,18 @@
   <img src="assets/banner-light.png" alt="GSQ-RCO model evaluation" width="100%">
 </picture>
 
+<div align="center">
+
+[![arXiv: GSQ](https://img.shields.io/badge/arXiv-GSQ_2604.18556-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2604.18556)
+[![arXiv: RCO](https://img.shields.io/badge/arXiv-RCO_2605.00649-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.00649)
+[![GSQ code](https://img.shields.io/badge/code-GSQ-181717?logo=github&logoColor=white)](https://github.com/IST-DASLab/GSQ)
+[![RCO code](https://img.shields.io/badge/code-RCO-181717?logo=github&logoColor=white)](https://github.com/IST-DASLab/RCO)
+[![DASLab](https://img.shields.io/badge/DASLab-GitHub-101048?logo=github&logoColor=white)](https://github.com/IST-DASLab)
+[![license](https://img.shields.io/badge/license-MIT-19a34a)](#license)
+[![Models: GSQ-RCO GGUF](https://img.shields.io/badge/models-GSQ--RCO_GGUF-ffd21e?logo=huggingface&logoColor=white)](https://huggingface.co/collections/ISTA-DASLab/gsq-rco-gguf)
+
+</div>
+
 # GSQ-RCO model evaluation
 
 We use LightEval for GPQA-Diamond and AIME25, and the LiveCodeBench source runner for code generation on the `v6` subset. All three benchmarks send requests to a local OpenAI-compatible server. The examples use `inkling-2-mini` as the model name.
